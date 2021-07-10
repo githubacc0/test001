@@ -12,7 +12,7 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/FREAK-HEAD07/Oshekher-RDP/blob/3532d51014394811a3166a0558af877f3be65341/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/FREAK-HEAD07/Oshekher-RDP/blob/44b7a53657abf0dab1dcce78cbd492646813d408/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/loop.bat -OutFile loop.bat
